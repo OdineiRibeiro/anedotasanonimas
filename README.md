@@ -1,3 +1,3 @@
 # Anedotas Anônimas
 
-[_"um cara do trabalho disse isso..."_](http://odineiribeiro.github.io/anedotasanonimas)
+"[_um cara do trabalho disse isso..._](http://odineiribeiro.github.io/anedotasanonimas)"
