@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Anedotas Anônimas</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body onload="get_anedota()">
-    <div class="">
-      <p name="anedota"></p>
-      <span class="next" onclick="get_anedota()">próxima</span>
+    <div class="content">
+      <p name="anedota" class="anedota"></p>
+      <i class="next fa fa-refresh fa-2x" onclick="get_anedota()"></i>
     </div>
     <script type="text/javascript" src="json/anedotas.json"></script>
     <script type="text/javascript" src="json/autores.json"></script>

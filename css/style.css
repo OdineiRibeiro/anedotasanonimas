@@ -1,3 +1,19 @@
+body {
+  margin: 0 auto;
+  max-width: 80em;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.anedota {
+  font-size: x-large;
+}
+
+.content {
+  margin-top: 20%;
+  text-align: center;
+}
+
 .next {
   cursor: pointer;
+  color: #3366BB;
 }
