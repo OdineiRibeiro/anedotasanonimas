@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Anedotas Anônimas</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body>
+  <body onload="get_anedota()">
     <div class="">
-      <p name='anedota'></p>
-      <a onclick="get_anedota()">próxima</a>
+      <p name="anedota"></p>
+      <span class="next" onclick="get_anedota()">próxima</span>
     </div>
     <script type="text/javascript" src="json/anedotas.json"></script>
     <script type="text/javascript" src="js/app.js"></script>
