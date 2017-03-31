@@ -1,11 +1,13 @@
 body {
   margin: 0 auto;
   max-width: 80em;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Times", "Serif";
+  background-color: black;
 }
 
 .anedota {
   font-size: x-large;
+  color: white;
 }
 
 .content {
@@ -15,5 +17,5 @@ body {
 
 .next {
   cursor: pointer;
-  color: #3366BB;
+  color: white;
 }
