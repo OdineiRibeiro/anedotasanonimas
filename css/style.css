@@ -1,8 +1,14 @@
-body {
+html, body {
   margin: 0 auto;
-  max-width: 80em;
+}
+
+body {
   font-family: "Times", "Serif";
   background-color: black;
+}
+
+.content {
+  display: block;
 }
 
 .anedota {
@@ -10,8 +16,10 @@ body {
   margin: 0 auto;
 }
 
-.content {
-  margin-top: 25%;
+.quotes {
+  margin: 0 auto;
+  max-width: 80em;
+  margin-top: 20%;
   text-align: center;
 }
 
@@ -27,18 +35,17 @@ body {
 .next,
 .anedota,
 .author,
-.content i {
+.quotes i {
   color: white;
 }
 
-.content div {
+.quotes div {
   display: block;
 }
 
 .warper {
   margin: 0 auto;
   width: 70%;
-
 }
 
 .quote-left i {
@@ -58,3 +65,13 @@ body {
   width: 100%;
   height: 5%;
 }
+
+/*.offset {
+  margin: 0 auto;
+  background-color: white;
+}
+
+.offset .content {
+  margin: 0 auto;
+  max-width: 40em;
+}*/

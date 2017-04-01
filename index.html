@@ -2,40 +2,47 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" quotes="width=device-width, initial-scale=1.0">
     <title>Anedotas Anônimas</title>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body onload="get_anedota()">
-
     <div class="content">
+      <div class="quotes">
+        <div class="quote-left">
+          <div class="warper">
+            <i class="fa fa-quote-left fa-3x" aria-hidden="true"></i>
+          </div>
+        </div>
 
-      <div class="quote-left">
-        <div class="warper">
-          <i class="fa fa-quote-left fa-3x" aria-hidden="true"></i>
+        <div class="anedota">
+          <div class="warper">
+            <p name="anedota" class="anedota"></p>
+          </div>
+        </div>
+
+        <div class="quote-right">
+          <div class="warper">
+            <i class="fa fa-quote-right fa-3x" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="author">
+          <p name="author" class="author"></p>
+        </div>
+
+        <div class="refresh">
+          <i class="next fa fa-refresh fa-2x" onclick="get_anedota()"></i>
         </div>
       </div>
 
-      <div class="anedota">
-        <div class="warper">
-          <p name="anedota" class="anedota"></p>
+      <!-- Don't call me crazy! I have plans on it!
+      <div class="offset">
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
-      </div>
-
-      <div class="quote-right">
-        <div class="warper">
-          <i class="fa fa-quote-right fa-3x" aria-hidden="true"></i>
-        </div>
-      </div>
-
-      <div class="author">
-        <p name="author" class="author"></p>
-      </div>
-
-      <div class="refresh">
-        <i class="next fa fa-refresh fa-2x" onclick="get_anedota()"></i>
-      </div>
+      </div> -->
     </div>
 
     <script type="text/javascript" src="json/anedotas.json"></script>
